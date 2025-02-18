@@ -6,9 +6,9 @@ html, body, h1 {
     width: 100vw;
     height: 100vh;
     display: flex;
-    flex-direction: column; /* Размещает элементы вертикально */
-    justify-content: flex-start; /* Выравниваем контент к верху */
-    align-items: center; /* Центрируем по горизонтали */    
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;  
 }
 .light {
     background-color: #ffffff;
@@ -19,9 +19,14 @@ html, body, h1 {
     background-color: #000000;
     color: #ffffff;
 }
+#lottie-container {
+    width: 300px;
+    height: 300px;
+}
+
 
 @media (max-width: 480px) {
     h1 {
-        font-size: 47px;
+        font-size: 30px;
     }
 }
